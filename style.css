@@ -21,36 +21,77 @@ html, body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 16px 100px;
 }
-
 #intro-content{
-
+    display: flex;
+    background-color: #1f2937;
+    padding: 100px 100px;
+    color: #F9FAF8;
 }
-/* #header-link{
+
+#header-link{
     display: flex;
     gap: 20px;
     font-size: 16px;
 }
 
-#upper-body{
+#image-section{
     display: flex;
-    background-color: #1f2937;
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bolder;
-    padding: 24px 100px;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+}
+
+#images, #desc-images{
+    display: flex;
+    justify-content: space-around;
+}
+
+#quote-section{
+    text-align: center;
+    font-size: 36px;
+    font: "light italic";
+    background-color: #E5E7EB;
+    padding: 16px 150px;
 }
 
 #title-text{
-
+    width: 60%;
 }
-*/
+img{
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+#sign-up-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 100px 200px;
+}
+#sign-up-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 100px;
+}
 button{
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
     padding: 8px 20px;
+    margin: 10px;
     border-radius: 10px;
     border: none;
+}
+
+#btn-signup-section{
+    border: 2px solid;
+    font-size: 1em;
+    border-color: #F9FAF8;
+    padding: 0px 30px;
 }
